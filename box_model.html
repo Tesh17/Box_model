@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="nb">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model 📦 </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <style>
+        main {
+            font-family: 'Ubuntu', sans-serif;
+
+            /* slik legger man til kommentar i css */
+            display: flex;
+            /* flex brukes til å plassere innhold */
+
+            flex-wrap: wrap;
+            /* flex-wrap brukes til å pakke innholdet 
+            der hvor det er plass dyttes ting opp og der
+            det ikke er plass dyttes ting ned */
+
+            /* brukes til å sentrere innhold */
+
+            justify-content: center;
+            align-items: center;
+
+            margin: 40px;
+            padding: 20px;
+
+            background-color: darkcyan;
+            min-height: 1000px;
+
+
+
+
+        }
+
+        div {
+            max-width: 300px;
+            margin: 40px;
+            padding: 20px;
+            border: lightseagreen solid 10px;
+            background-color: lightcyan;
+        }
+
+        .artur {
+            background-color: lightsalmon;
+        }
+
+        .elias {
+            background-color: lightpink;
+        }
+
+        .nitesh {
+            background-color: rgb(115, 184, 226);
+        }
+
+        .arnold {
+            background-color: rgb(124, 158, 138);
+        }
+
+        .georg {
+            background-color: lightsteelblue;
+        }
+
+        .jordan {
+            background-color: lightgoldenrodyellow;
+        }
+
+        .robin {
+            background-color: lightgreen;
+        }
+
+        .batman {
+            background-color: lightskyblue;
+        }
+
+        .freeze {
+            background-color: lightcoral;
+        }
+
+        .pen {
+            background-color: lightblue;
+        }
+
+        .book {
+            background-color: lightyellow;
+        }
+    </style>
+
+</head>
+
+<body>
+    <main>
+        <div class="elias">
+            <h2>Boksmodellen</h2>
+            <p>
+                Boksmodellen består av innholdet, padding,
+                border og margin. Boksmodellen er også formet
+                boks.
+            </p>
+        </div>
+        <div class="artur">
+            <h2>Margin</h2>
+            <p>
+                Margin er luft rundt innholdet.
+                Denne luften er usynlig.
+            </p>
+        </div>
+        <div class="nitesh">
+            <h2>Padding</h2>
+            <p>
+                Paddingen er den innerste delen av boksmodellen,
+                som også er området rundt tekst/elementet i boksen
+            </p>
+        </div>
+        <div class="arnold">
+            <h2>Border</h2>
+            <p>
+                Border-egenskapen i CSS lar deg sette en
+                ramme eller kant rundt et element. Hvor du kan endre stil,
+                farge og størelse på rammen.
+
+            </p>
+        </div>
+        <div class="george">
+            <h2>Selector</h2>
+            <p>
+                En Selector i CSS er del av et regelsett som faktisk
+                velger området du vil forandre på.
+                Eks: "Color: green" eller "font-size"
+            </p>
+        </div>
+        <div class="jordan">
+            <h2>Attribute</h2>
+            <p>
+                Attribute selector i CSS velger innhold med like egenskaper og gruperer dem.
+                eks: å forandre på bakgrunnsfargen på boks modeller
+            </p>
+        </div>
+        <div class="robin">
+            <h2>Value</h2>
+            <p>
+                Value i CSS endrer egenskapene til innhold i CSS.
+                eks: "red" "blue"
+
+            </p>
+        </div>
+        <div class="batman">
+            <h2>Paragraf</h2>
+            <p>
+                Vi bruker P-taggen for å lage paragrafer for nettsidens
+                hovedtekst/brødtekst
+            </p>
+        </div>
+        <div class="freeze">
+            <h2>H1-Tagg</h2>
+            <p>
+                H1 definerer den viktigste overteksten
+            </p>
+        </div>
+        <div class="pen">
+            <h2>HTML</h2>
+            <p>
+                For å kommentere i HTML så bruker man komandoen
+                < !-- og avslutter med -->. Bruk uten mellomrom.
+            </p>
+        </div>
+        <div class="book">
+            <h2>CSS</h2>
+            <p>
+                For å kommentere i CSS så bruker man komandoen
+                /**/.
+            </p>
+        </div>
+        <div class="elias">
+            <h2>Lenker</h2>
+            <p>
+                For å sette inn en lenke så skriver du inn komandoen "a"
+                og setter inn https// og nettsidens navn i href feltet.
+            </p>
+        </div>
+        <div class="artur">
+            <h2>bakgrunnsfarge</h2>
+            <p>
+                For å sette inn en bakgrunnsfarge så skriver man først inn
+                tegnene { } og skriver background-color mellom tegnene.
+            </p>
+        </div>
+        <div class="nitesh">
+            <h2>Main</h2>
+            <p>
+                Main gjelder for hele dokumentet og kan endre på
+                størrelse og plassering på objekter i dokumemtet.
+                Det kan bare være en "Main" i et dokument.
+            </p>
+        </div>
+        <div class="arnold">
+            <h2>HEX-verdi</h2>
+            <p>
+                HEX- verdi er fargenummeret på diverse farger som kan
+                bli brukt i dokumemtet.
+                eks: background-color #5468
+            </p>
+        </div>
+        <div class="georg">
+            <h2>RGB-verdi</h2>
+            <p>
+                RGB-verdi er verdiene på fargene på rød, grønn og blå
+                eks: #p1 {background-color:rgb(255,0,0);} /* red /
+                #p2 {background-color:rgb(0,255,0);} / green /
+                #p3 {background-color:rgb(0,0,255);} / blue */
+            </p>
+        </div>
+        <div class="jordan">
+            <h2>Flexbox</h2>
+            <p>
+                Flexbox brukes til å ordne layout og
+                plassere innhold i "main"
+            </p>
+        </div>
+        <div class="robin">
+            <h2>Bilder</h2>
+            <p>
+                for å sette inn ett bilde så skriver man inn "img", og
+                skriver filnavnet som man har i samme mappe til bildet
+                i src (source) linjen.
+            </p>
+        </div>
+
+    </main>
+</body>
+
+</html>
